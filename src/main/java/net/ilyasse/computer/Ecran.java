@@ -1,4 +1,10 @@
 package net.ilyasse.computer;
 
-public class Ecran {
+public  class Ecran implements Vga{
+    @Override
+    public void print(String message) {
+        System.out.println("============== Ecran ===================");
+        System.out.println(message);
+        System.out.println("============== Ecran ===================");
+    }
 }
