@@ -3,7 +3,7 @@ package net.ilyasse.computer;
 public class UniteCentrale {
     private Vga vga;
 
-    public void print(String message){
+    public void afficher(String message){
         System.out.println(".............................................");
         vga.print(message);
         System.out.println(".............................................");
